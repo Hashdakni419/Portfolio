@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body{
+            font-size: large;
+        }
+
+        img{
+            width: 300px;
+            height: 300px;
+            border-radius: 100%;
+        }
+
+        li{
+            margin: 15px;
+        }
+
+        .top{
+            text-align: center;
+            background-color: rgb(0, 0, 0);
+            color: rgb(239, 239, 198);
+            padding: 30px;
+        }
+
+        .content{
+           margin: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="top">
+        <img src="mine.jpg" alt="">
+        <div style="display:inline-block;">
+            <h1 style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">HASHIR IFTEKHAR DAKNI</h1>
+            <p style="font-size: large; font-style:italic">I am a</p>
+            <span id="element"></span>
+        </div>
+    </div>
+
+    <div class="content">
+        <h2>About Me</h2>
+        <p>Myself, <b>Hashir Iftekhar Dakni </b>and I am a Web developer. Currently I am persuing Computer Engineering from Trinity Academy of Engineering, Kondhwa, Pune. In person i love to create websites as well as apps for people. I think that people should look at the bigger picture when they are building something. I love to work in groups where everyone can voice their opinions and ideas.</p>
+
+        <h2>Skills</h2>
+        <ul>
+            <li>Python</li>
+            <li>C++</li>
+            <li>Java</li>
+            <li>HTML,CSS,JS,Django</li>
+            <li>MySQL</li>
+            <li>React</li>
+        </ul>
+
+        <h2>Internships</h2>
+        <ul>
+            <li>Oasis infobye: I did an internship in Oasis infobye as a Web Develepor and Designer. <br>
+                <a href="https://github.com/KenKaneki2207/OIBSIP">My work</a>
+            </li>
+        </ul>
+
+        <h2>Projects</h2>
+        <ul>
+            <li>Phishing Detection:  A machine learning-based approach which can speedily and precisely detect phishing websites using URL.</li>
+            <li>To-Do List:  A To-Do list is to provide yourself with a list of your priorities in order to ensure that you don't forget anything and are able to effectively plan out your tasks so that they are all accomplished in the correct time frame.</li>
+            <li>Weather Forecast App:  Using location services, forecasts provide weekly and daily weather report.</li>   
+        </ul>
+
+        <h2>Education</h2>
+        <ul>
+            <li>
+                BE Computer Engineering <br>
+                <a href="http://www.unipune.ac.in/" style="text-decoration: none">SPPU University</a><br>
+                <a href="https://www.kjei.edu.in/tae/">Trinity Academy of Engineering</a><br>
+                2021-2025
+            </li>
+            <li>
+                12th HSC<br>
+                <a href="https://poonacollege.edu.in/" style="text-decoration: none">AKI's Poona College of Arts, Science and Commerce</a>; 2020 <br>
+                
+            </li>
+            <li>
+                10th SSC<br>
+                <a href="https://coed.dasturschools.in/" style="text-decoration: none">Sardar Dastur Hormazdiar High School</a>; 2018 <br>
+                
+            </li>
+        </ul>
+    </div>
+
+    <div class="footer"
+        style="color: rgb(202, 202, 0); background-color: rgb(53, 53, 53); background-size:cover; background-repeat: no-repeat; padding: 5px; padding-left: 50px;">
+        <h2>Contact Me</h2>
+        <i class="fa fa-phone">8421917322</i><br>
+        <i class="fa fa-envelope"> hashir.dakni560@gmail.com</i><br>
+        <i class="fa fa-map">1861\28, Bhimpura, Camp, Pune-411001</i><br>
+    </div>
+
+    <script src="script/script.js"></script>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Web Developer', 'Software Developer','Web Designer...'],
+          typeSpeed: 50,
+        });
+    </script>
+    
+
+</body>
+</html>
